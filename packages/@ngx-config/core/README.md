@@ -2,8 +2,8 @@
 
 Configuration utility for **Angular**
 
-[![CircleCI](https://circleci.com/gh/fulls1z3/ngx-config.svg?style=shield)](https://circleci.com/gh/fulls1z3/ngx-config)
-[![coverage](https://codecov.io/github/fulls1z3/ngx-config/coverage.svg?branch=master)](https://codecov.io/gh/fulls1z3/ngx-config)
+[![CircleCI](https://circleci.com/gh/giri3sg/ngx-config.svg?style=shield)](https://circleci.com/gh/giri3sg/ngx-config)
+[![coverage](https://codecov.io/github/giri3sg/ngx-config/coverage.svg?branch=master)](https://codecov.io/gh/giri3sg/ngx-config)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Angular Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
@@ -35,7 +35,7 @@ npm install @ngx-config/core --save
 
 ### <a name="examples"></a> Examples
 
-- [ng-seed/universal] and [fulls1z3/example-app] are officially maintained projects, showcasing common patterns and best
+- [ng-seed/universal] and [giri3sg/example-app] are officially maintained projects, showcasing common patterns and best
   practices for **`@ngx-config/core`**.
 
 ### <a name="related-packages"></a> Related packages
@@ -128,13 +128,13 @@ If you provide application settings using a `JSON` file or an `API`, you can cal
 
 > You can customize this behavior (_and ofc other settings_) by supplying a **api endpoint** to `ConfigHttpLoader`.
 
-You can find detailed information about the usage guidelines for the `ConfigHttpLoader` [here](https://github.com/fulls1z3/ngx-config/tree/master/packages/@ngx-config/http-loader).
+You can find detailed information about the usage guidelines for the `ConfigHttpLoader` [here](https://github.com/giri3sg/ngx-config/tree/master/packages/@ngx-config/http-loader).
 
 ### <a name="setting-up-mergeloader"></a> Setting up `ConfigModule` to use `ConfigMergeLoader`
 
 `ConfigMergeLoader` provides application settings by executing loaders in **parallel** and in **series**.
 
-You can find detailed information about the usage guidelines for the `ConfigMergeLoader` [here](https://github.com/fulls1z3/ngx-config/tree/master/packages/@ngx-config/merge-loader).
+You can find detailed information about the usage guidelines for the `ConfigMergeLoader` [here](https://github.com/giri3sg/ngx-config/tree/master/packages/@ngx-config/merge-loader).
 
 ## <a name="usage"></a> Usage
 
@@ -220,11 +220,11 @@ The MIT License (MIT)
 Copyright (c) 2019 [Burak Tasci]
 
 [ng-seed/universal]: https://github.com/ng-seed/universal
-[fulls1z3/example-app]: https://github.com/fulls1z3/example-app
-[@ngx-config/http-loader]: https://github.com/fulls1z3/ngx-config/tree/master/packages/@ngx-config/http-loader
-[@ngx-config/merge-loader]: https://github.com/fulls1z3/ngx-config/tree/master/packages/@ngx-config/merge-loader
-[@ngx-i18n-router/config-loader]: https://github.com/fulls1z3/ngx-i18n-router/tree/master/packages/@ngx-i18n-router/config-loader
-[@ngx-cache/core]: https://github.com/fulls1z3/ngx-cache/tree/master/packages/@ngx-cache/core
+[giri3sg/example-app]: https://github.com/giri3sg/example-app
+[@ngx-config/http-loader]: https://github.com/giri3sg/ngx-config/tree/master/packages/@ngx-config/http-loader
+[@ngx-config/merge-loader]: https://github.com/giri3sg/ngx-config/tree/master/packages/@ngx-config/merge-loader
+[@ngx-i18n-router/config-loader]: https://github.com/giri3sg/ngx-i18n-router/tree/master/packages/@ngx-i18n-router/config-loader
+[@ngx-cache/core]: https://github.com/giri3sg/ngx-cache/tree/master/packages/@ngx-cache/core
 [forroot]: https://angular.io/docs/ts/latest/guide/ngmodule.html#!#core-for-root
 [aot compilation]: https://angular.io/docs/ts/latest/cookbook/aot-compiler.html
-[burak tasci]: https://github.com/fulls1z3
+[burak tasci]: https://github.com/giri3sg

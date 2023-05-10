@@ -35,13 +35,13 @@ describe('@ngx-config/http-loader:', () => {
         deps: [HttpClient]
       });
 
-      const config = TestBed.get(ConfigService);
+      const config = TestBed.inject(ConfigService);
 
       expect(ConfigHttpLoader).toBeDefined();
       expect(config.loader).toBeDefined();
       expect(config.loader instanceof ConfigHttpLoader).toBeTruthy();
 
-      const httpMock = TestBed.get(HttpTestingController);
+      const httpMock = TestBed.inject(HttpTestingController);
       httpMock.expectOne({ method: 'GET', url: '/config.json' }).flush(testSettings);
       httpMock.verify();
     });
@@ -56,13 +56,13 @@ describe('@ngx-config/http-loader:', () => {
       deps: [HttpClient]
     });
 
-    const config = TestBed.get(ConfigService);
+    const config = TestBed.inject(ConfigService);
 
     config.loader.loadSettings().then((res: any) => {
       expect(res).toEqual(testSettings);
     });
 
-    const httpMock = TestBed.get(HttpTestingController);
+    const httpMock = TestBed.inject(HttpTestingController);
     const reqs = httpMock.match('/api/settings');
 
     for (const req of reqs) {
@@ -81,14 +81,14 @@ describe('@ngx-config/http-loader:', () => {
       deps: [HttpClient]
     });
 
-    const config = TestBed.get(ConfigService);
+    const config = TestBed.inject(ConfigService);
 
     config.loader.loadSettings().catch((err: any) => {
       expect(err).toEqual('Endpoint unreachable!');
       done();
     });
 
-    const httpMock = TestBed.get(HttpTestingController);
+    const httpMock = TestBed.inject(HttpTestingController);
     const reqs = httpMock.match('/api/wrong-settings');
 
     for (const req of reqs) {

@@ -45,7 +45,7 @@ export class ConfigMergeLoader implements ConfigLoader {
       share()
     );
 
-    return new Promise((resolve: () => void, reject: Function) => {
+    return new Promise((resolve: (value: any) => void, reject: Function) => {
       merge(mergedSettings, errorIfEmpty(mergedSettings), mergedSettings)
         .pipe(reduce((merged: any, current: any) => mergeWith(merged)(current), {}))
         .subscribe(resolve, () => reject('Loaders unreachable!'));

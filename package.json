@@ -4,7 +4,7 @@
   "description": "Configuration utility for Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fulls1z3/ngx-config.git"
+    "url": "https://github.com/giri3sg/ngx-config.git"
   },
   "keywords": [],
   "author": {
@@ -13,9 +13,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fulls1z3/ngx-config/issues"
+    "url": "https://github.com/giri3sg/ngx-config/issues"
   },
-  "homepage": "https://github.com/fulls1z3/ngx-config#readme",
+  "homepage": "https://github.com/giri3sg/ngx-config#readme",
   "scripts": {
     "clean": "rimraf dist",
     "build:core": "ts-node tools/build/packager.ts core",
@@ -31,13 +31,17 @@
     "test:ci": "jest --ci --updateSnapshot --colors",
     "release": "standard-version"
   },
+  "optionalDependencies": {
+    "fsevents": "1.2.13"
+  },
   "devDependencies": {
-    "@angular/common": "^9.1.0",
-    "@angular/compiler": "^9.1.0",
-    "@angular/compiler-cli": "^9.1.0",
-    "@angular/core": "^9.1.0",
-    "@angular/platform-browser": "^9.1.0",
-    "@angular/platform-browser-dynamic": "^9.1.0",
+    "@angular/common": "^12.2.17",
+    "@angular/compiler": "^12.2.17",
+    "@angular/compiler-cli": "^12.2.17",
+    "@angular/core": "^12.2.17",
+    "@angular-devkit/schematics": "^9.1.0",
+    "@angular/platform-browser": "^12.2.17",
+    "@angular/platform-browser-dynamic": "^12.2.17",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@types/jest": "^23.3.14",
@@ -53,7 +57,7 @@
     "lerna": "^3.20.2",
     "lint-staged": "^10.0.0",
     "lodash": "^4.17.15",
-    "ng-packagr": "^9.0.0",
+    "ng-packagr": "^12.0.0",
     "prettier": "1.19.1",
     "prettier-tslint": "^0.4.2",
     "reflect-metadata": "^0.1.13",
@@ -64,8 +68,8 @@
     "tsickle": "^0.38.0",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "~3.8.3",
-    "zone.js": "^0.10.2"
+    "typescript": "~4.3.5",
+    "zone.js": "^0.11.8"
   },
   "husky": {
     "hooks": {
@@ -108,5 +112,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "standard-version": "^9.5.0"
   }
 }

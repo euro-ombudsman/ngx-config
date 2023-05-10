@@ -24,7 +24,7 @@ describe('@ngx-config/core:', () => {
     });
 
     it('should be able to provide `ConfigStaticLoader`', () => {
-      const config = TestBed.get(ConfigService);
+      const config = TestBed.inject(ConfigService);
 
       expect(ConfigStaticLoader).toBeDefined();
       expect(config.loader).toBeDefined();
@@ -43,7 +43,7 @@ describe('@ngx-config/core:', () => {
         useClass: CustomLoader
       });
 
-      const config = TestBed.get(ConfigService);
+      const config = TestBed.inject(ConfigService);
 
       expect(CustomLoader).toBeDefined();
       expect(config.loader).toBeDefined();

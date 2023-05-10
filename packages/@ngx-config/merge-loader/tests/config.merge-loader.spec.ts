@@ -72,7 +72,7 @@ describe('@ngx-config/merge-loader:', () => {
         useFactory: configFactory
       });
 
-      const config = TestBed.get(ConfigService);
+      const config = TestBed.inject(ConfigService);
 
       expect(ConfigMergeLoader).toBeDefined();
       expect(config.loader).toBeDefined();
@@ -105,7 +105,7 @@ describe('@ngx-config/merge-loader:', () => {
         useFactory: configFactory
       });
 
-      const config = TestBed.get(ConfigService);
+      const config = TestBed.inject(ConfigService);
 
       const expectedSettings = {
         setting1: 'value1',
@@ -132,7 +132,7 @@ describe('@ngx-config/merge-loader:', () => {
         useFactory: configFactory
       });
 
-      const config = TestBed.get(ConfigService);
+      const config = TestBed.inject(ConfigService);
 
       config.loader.loadSettings().catch((err: any) => {
         expect(err).toEqual('Loaders unreachable!');
@@ -152,7 +152,7 @@ describe('@ngx-config/merge-loader:', () => {
         useFactory: configFactory
       });
 
-      const config = TestBed.get(ConfigService);
+      const config = TestBed.inject(ConfigService);
 
       config.loader.loadSettings().then((res: any) => {
         expect(res).toEqual(testSettingsMerged);
@@ -169,7 +169,7 @@ describe('@ngx-config/merge-loader:', () => {
         useFactory: configFactory
       });
 
-      const config = TestBed.get(ConfigService);
+      const config = TestBed.inject(ConfigService);
 
       const expectedSettings = {
         setting4: 'value4',

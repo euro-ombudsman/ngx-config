@@ -1,10 +1,13 @@
 {
   "name": "@ngx-config/core",
-  "version": "9.0.0",
+  "version": "12.0.0",
   "description": "Configuration utility for Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fulls1z3/ngx-config.git"
+    "url": "https://github.com/giri3sg/ngx-config.git"
+  },
+  "scripts": {
+    "update": "ng update @angular/core@10 @angular/cli@10"
   },
   "keywords": [
     "app initializer",
@@ -22,13 +25,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fulls1z3/ngx-config/issues"
+    "url": "https://github.com/giri3sg/ngx-config/issues"
   },
-  "homepage": "https://github.com/fulls1z3/ngx-config/tree/master/packages/@ngx-config/core#readme",
+  "homepage": "https://github.com/giri3sg/ngx-config/tree/master/packages/@ngx-config/core#readme",
   "peerDependencies": {
-    "@angular/common": ">=9.0.0 <10.0.0",
-    "@angular/core": ">=9.0.0 <10.0.0",
-    "@angular/platform-browser-dynamic": ">=9.0.0 <10.0.0"
+    "@angular/core": "^12.2.17",
+    "@angular/common": "^12.2.17",
+    "@angular/platform-browser-dynamic": "^12.2.17"
   },
   "publishConfig": {
     "access": "public",
