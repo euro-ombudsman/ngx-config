@@ -2,8 +2,8 @@
 
 Loader for [ngx-config] that provides application settings using **`http`**
 
-[![CircleCI](https://circleci.com/gh/giri3sg/ngx-config.svg?style=shield)](https://circleci.com/gh/giri3sg/ngx-config)
-[![coverage](https://codecov.io/github/giri3sg/ngx-config/coverage.svg?branch=master)](https://codecov.io/gh/giri3sg/ngx-config)
+[![CircleCI](https://circleci.com/gh/fulls1z3/ngx-config.svg?style=shield)](https://circleci.com/gh/fulls1z3/ngx-config)
+[![coverage](https://codecov.io/github/fulls1z3/ngx-config/coverage.svg?branch=master)](https://codecov.io/gh/fulls1z3/ngx-config)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Angular Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
@@ -31,7 +31,7 @@ npm install @ngx-config/http-loader --save
 
 ### <a name="examples"></a> Examples
 
-- [ng-seed/universal] and [giri3sg/example-app] are officially maintained projects, showcasing common patterns and best
+- [ng-seed/universal] and [fulls1z3/example-app] are officially maintained projects, showcasing common patterns and best
   practices for **`@ngx-config/http-loader`**.
 
 ### <a name="related-packages"></a> Related packages
@@ -127,10 +127,10 @@ The MIT License (MIT)
 
 Copyright (c) 2019 [Burak Tasci]
 
-[ngx-config]: https://github.com/giri3sg/ngx-config
+[ngx-config]: https://github.com/euro-ombudsman/ngx-config
 [ng-seed/universal]: https://github.com/ng-seed/universal
-[giri3sg/example-app]: https://github.com/giri3sg/example-app
-[@ngx-config/core]: https://github.com/giri3sg/ngx-config/tree/master/packages/@ngx-config/core
-[@ngx-config/merge-loader]: https://github.com/giri3sg/ngx-config/tree/master/packages/@ngx-config/merge-loader
+[fulls1z3/example-app]: https://github.com/fulls1z3/example-app
+[@ngx-config/core]: https://github.com/euro-ombudsman/ngx-config/tree/master/packages/@ngx-config/core
+[@ngx-config/merge-loader]: https://github.com/euro-ombudsman/ngx-config/tree/master/packages/@ngx-config/merge-loader
 [forroot]: https://angular.io/docs/ts/latest/guide/ngmodule.html#!#core-for-root
-[burak tasci]: https://github.com/giri3sg
+[burak tasci]: https://github.com/fulls1z3

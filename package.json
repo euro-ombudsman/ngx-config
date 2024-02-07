@@ -4,7 +4,7 @@
   "description": "Configuration utility for Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/giri3sg/ngx-config.git"
+    "url": "https://github.com/euro-ombudsman/ngx-config.git"
   },
   "keywords": [],
   "author": {
@@ -13,9 +13,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/giri3sg/ngx-config/issues"
+    "url": "https://github.com/euro-ombudsman/ngx-config/issues"
   },
-  "homepage": "https://github.com/giri3sg/ngx-config#readme",
+  "homepage": "https://github.com/euro-ombudsman/ngx-config#readme",
   "scripts": {
     "clean": "rimraf dist",
     "build:core": "ts-node tools/build/packager.ts core",

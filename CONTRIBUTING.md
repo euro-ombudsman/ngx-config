@@ -65,13 +65,13 @@ the problem before we can fix it.
 Unfortunately we are not able to investigate / fix bugs without a minimal reproduction, so if we don't hear back from you,
 we are going to close an issue that don't have enough info to be reproduced.
 
-You can file new issues by filling out our [new issue form](https://github.com/giri3sg/ngx-config/issues/new).
+You can file new issues by filling out our [new issue form](https://github.com/euro-ombudsman/ngx-config/issues/new).
 
 ### <a name="submit-pr"></a> Submitting a Pull Request (PR)
 
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-- Search [GitHub](https://github.com/giri3sg/ngx-config/pulls) for an open or closed PR that relates to your submission.
+- Search [GitHub](https://github.com/euro-ombudsman/ngx-config/pulls) for an open or closed PR that relates to your submission.
   You don't want to duplicate effort.
 - Make your changes in a new git branch:
   ```shell
@@ -125,7 +125,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 - All features or bug fixes **must be tested** by one or more specs (unit-tests).
 - All public API methods **must be documented**. (Details TBC).
-- We follow [giri3sg's Angular TSLint rules][angular-tslint-rules].
+- We follow [fulls1z3's Angular TSLint rules][angular-tslint-rules].
 
 ## <a name="commit"></a> Commit message guidelines
 
@@ -154,7 +154,7 @@ well as in various git tools.
 Footer should contain a [closing reference to an issue](https://help.github.com/articles/closing-issues-via-commit-messages/)
 if any.
 
-Samples: (even more [samples](https://github.com/giri3sg/ngx-config/commits/master))
+Samples: (even more [samples](https://github.com/euro-ombudsman/ngx-config/commits/master))
 
 ```
 docs(changelog): update change log to alpha.4
@@ -223,6 +223,6 @@ this commit **Closes**.
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit
 message is then used for this.
 
-[coc]: https://github.com/giri3sg/ngx-config/blob/master/CODE_OF_CONDUCT.md
-[github]: https://github.com/giri3sg/ngx-config
-[angular-tslint-rules]: https://github.com/giri3sg/angular-tslint-rules
+[coc]: https://github.com/euro-ombudsman/ngx-config/blob/master/CODE_OF_CONDUCT.md
+[github]: https://github.com/euro-ombudsman/ngx-config
+[angular-tslint-rules]: https://github.com/fulls1z3/angular-tslint-rules
